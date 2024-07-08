@@ -108,20 +108,19 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 30px;
   color: white;
  }
  .leftside-content p{
-  color: white;
+  color: rgba(255, 255, 255, 0.8);
   font-family: Inter;
   font-size: 18px;
   font-weight: 400;
-  margin-left: 50px;
+  margin-left: 150px;
+  margin-bottom: 50px;
  }
- .leftside-content h2{
-  font: Merriweather;
-  font weight: 900;
-  font size: 64px;
+ .leftside-content h1{
+  font-size: 64px;
+  font-weight: 900;
  }
  .rightside-content img{
   height: 100%;
@@ -129,7 +128,7 @@ body {
  }
  #midnight-button{
   color: white;
-  font-family: Inter;
   font-size: 20px;
   font-weight: 700;
+  margin-right: 280px;
  }
