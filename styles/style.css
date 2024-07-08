@@ -93,7 +93,8 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-blend-mode: overlay;
-  margin-top: 100px;
+  margin-top: 200px;
+  margin-bottom: 200px;
  }
  .rightside-content{
   width: 349.16px;
@@ -131,4 +132,37 @@ body {
   font-size: 20px;
   font-weight: 700;
   margin-right: 280px;
+ }
+ /* time section starts here */
+ .time-place-container{
+  background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+  border-radius: 16px;
+  margin: 0;
+  display: flex;
+ }
+ .date-time-place{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 900;
+  margin: 100px 385px 100px 385px;
+ }
+ .color{
+  color:  rgb(255, 0, 0);
+ }
+ .clr{
+  background-color: rgb(255, 0, 0);
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  padding: 16px 32px 16px 32px;
+  color: white;
  }
