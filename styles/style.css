@@ -135,10 +135,14 @@ body {
  }
  /* time section starts here */
  .time-place-container{
+  width: 1320px;
+  height: 482px;
   background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
   border-radius: 16px;
-  margin: 0;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  
  }
  .date-time-place{
   display: flex;
@@ -165,4 +169,61 @@ body {
   border: none;
   padding: 16px 32px 16px 32px;
   color: white;
+ }
+ /* new offer section starts here */
+ .new-offer{
+  width: 1320px;
+  height: 463px;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 120px;
+  margin-bottom: 120px;
+ }
+ .circle{
+  width: 463px;
+  height: 463px;
+  display: flex;
+  box-sizing: border-box;
+  border: 20px solid rgb(255, 0, 0);
+  border-radius: 50%;
+  margin: 0 auto;
+  padding: 30px;
+  justify-content: center;
+  align-items: center;
+ }
+ .coming-soon{
+  margin-right: 110px;
+ }
+ .coming-soon h5{
+  color: rgb(255, 0, 0);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+ }
+ .coming-soon p{
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  color: rgba(7, 2, 17, 0.6)
+ }
+ .coming-soon h2{
+  color: rgb(7, 2, 17);
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+ }
+ .year{
+  margin-left: 90px;
+ }
+ .year h2{
+  color: rgb(255, 0, 0);
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+ }
+ .year p{
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  color: rgba(7, 2, 17, 0.6)
  }
