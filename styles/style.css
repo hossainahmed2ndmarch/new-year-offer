@@ -228,3 +228,71 @@ body {
   font-weight: 400;
   color: rgba(7, 2, 17, 0.6)
  }
+ /* holiday section starts here */
+ .holiday-section{
+  width: 1320px;
+  height: 986.07px;
+  margin: 0 auto;
+  margin-top: 120px;
+  margin-bottom: 120px;
+  position: relative;
+ }
+ .holiday-text-container {
+  width: 1068px;
+  height: 260px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+ }
+ 
+ .holiday-text-container h2 {
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 91px;
+  letter-spacing: 0%;
+  text-align: center;
+  width: 677px;
+  height: 91px;
+  margin: 0 auto;
+ }
+ .holiday-text-container h5 {
+  color: rgb(7, 2, 17);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  margin: 0 auto;
+  width: 263px;
+  height: 29px;
+ }
+ .holiday-text-container p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  height: 96px;
+  margin: 0 auto;
+ }
+ .solid-color {
+  width: 1320px;
+  height: 229px;
+  background-color: red;
+  position: absolute;
+  top: 77%;
+ }
+ .giftbox {
+  position: absolute;
+  width: 674.82px;
+  height: 577.96px;
+  display: flex;
+  margin-top: 170px;
+  justify-content: space-between;
+ }
+ .discount {
+  position: absolute;
+  bottom: 30%;
+  left: 60%;
+ }
+ 
