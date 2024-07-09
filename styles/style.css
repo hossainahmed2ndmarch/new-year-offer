@@ -153,7 +153,7 @@ body {
   font-family: Inter;
   font-size: 32px;
   font-weight: 900;
-  margin: 100px 385px 100px 385px;
+  margin: 0 auto;
  }
  .color{
   color:  rgb(255, 0, 0);
@@ -194,6 +194,7 @@ body {
  }
  .coming-soon{
   margin-right: 110px;
+  margin: 0 auto;
  }
  .coming-soon h5{
   color: rgb(255, 0, 0);
@@ -294,5 +295,53 @@ body {
   position: absolute;
   bottom: 30%;
   left: 60%;
+ }
+/* Items Styles */
+ .items {
+  width: 1320px;
+  height: 1187px;
+  margin: 0 auto;
+  margin-top: 120px;
+  margin-bottom: 120px;
+ }
+ .items-text-container h5 {
+  color: rgb(255, 0, 0);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  
+  text-align: left;
+ }
+ .items-text-container h2 {
+  color: rgb(7, 2, 17);
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 60px;
+  text-align: left;
+  text-transform: capitalize;
+ }
+ .items-text-container p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: left;
+ }
+ .items-text-container {
+ height: 239px;
+ }
+ .items-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+ }
+ .item {
+  width: 424px;
+  height: 450px;
+ }
+ .item img {
+  width: 100%;
+  height: 100%;
  }
  
